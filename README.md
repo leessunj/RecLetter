@@ -91,7 +91,6 @@
 ![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?&style=for-the-badge&logo=Axios&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4.svg?&style=for-the-badge&logo=TailwindCSS&logoColor=white)
 ![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A.svg?&style=for-the-badge&logo=PostCSS&logoColor=white)
-![Sass](https://img.shields.io/badge/Sass-CC6699.svg?&style=for-the-badge&logo=Sass&logoColor=white)
 ![Autoprefixer](https://img.shields.io/badge/Autoprefixer-DD3735.svg?&style=for-the-badge&logo=Autoprefixer&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-764ABC.svg?&style=for-the-badge&logo=Redux&logoColor=white)
 ![OpenVidu](https://img.shields.io/badge/Openvidu-05D261.svg?&style=for-the-badge)
@@ -404,20 +403,21 @@
     -   `Media Capture and Streams API`를 이용해 영상 촬영 및 영상 녹화 기능 구현
 -   영상 편집(프론트엔드)
     -   `ffmpeg.wasm` 라이브러리를 이용하여 영상의 앞 뒤 자르기 구현.
+    -   `Canvas`,`html2canvas`를 활용하여 영상 사이즈에 맞는 이미지 생성 및 배치, 통합 기능 구현
 -   영상 편집(백엔드)
     -   `ffmpeg`, `moviepy`를 활용하여 사이즈 조절, 영상 연결, 프레임 이미지 삽입 등 필요한 편집 기능 구현
-    -   `Canvas`,`html2canvas`를 활용하여 영상 사이즈에 맞는 이미지 생성 및 배치, 통합 기능 구현
 -   화면 공유
     -   `WebRTC` 기술을 이용한 라이브러리의 일종인 `OpenVidu`를 이용해 타인과의 화면 공유 기술 구현
--   CI/CD
-    -   `Jenkins`, `Docker`, `Docker Hub`를 활용하여 CI/CD 구현
--   비동기 이벤트 분산 처리
-    -   `Kafka` 를 활용하여 영상 인코딩에 관련된 동작들을 비동기적으로 분산 처리하는 기능 구현
 -   채팅
     -   `WebSocket` 기술을 활용한 사용자 간 채팅 기능 구현
 -   로그인
     -   `OAuth2` 기술을 이용한 구글 소셜 로그인 구현
     -   `JWT` 기술을 활용한 비밀번호 보안 강화
+-   CI/CD
+    -   `Jenkins`, `Docker`, `Docker Hub`를 활용하여 CI/CD 구현
+-   비동기 이벤트 분산 처리
+    -   `Kafka` 를 활용하여 영상 인코딩에 관련된 동작들을 비동기적으로 분산 처리하는 기능 구현
+
 
 # 6. 설계 문서
 
